@@ -1,0 +1,1855 @@
+history
+    1  clear
+    2  sudo systemctl status http
+    3  sudo yum install http 
+    4  sudo yum install apache 
+    5  #!/bin/bash
+    6  yum update -y
+    7  yum install -y httpd
+    8  systemctl start httpd
+    9  sudo sytemctl status httpd
+   10  sudo systemctl status httpd
+   11  sudo yum install httpd
+   12  clear
+   13  sudo systemctl start httpd
+   14  sudo systemctl enable httpd
+   15  sudo systemctl status httpd
+   16  clear
+   17  cat /etc/passwd
+   18  clear
+   19  tail -5 /etc/passwd
+   20  clear
+   21  sudo adduser
+   22  clear
+   23  sudo adduser isi
+   24  sudo su - isi
+   25  clear
+   26  sudo passwd isi
+   27  clear
+   28  whereis sudoers
+   29  cd /etc/sudoers.d/etc/sudoers
+   30  sudo cd /etc/sudoers.d/etc/sudoers
+   31  sudo cd /etc/sudoers
+   32  clear
+   33  CLEAR
+   34  clear
+   35  echo $shell
+   36  echo $shells
+   37  clear
+   38  echo $shell
+   39  echo $shells
+   40  clear
+   41  cat /etc/shells
+   42  vi script1.sh
+   43  sh script1.sh 
+   44  vi script1.sh 
+   45  clear
+   46  sh script1.sh 
+   47  ls
+   48  ls billions/
+   49  ll
+   50  touch test 
+   51  ll
+   52  clear
+   53  ll
+   54  ./script1.sh
+   55  sudo ./script1.sh 
+   56  ./script1.sh
+   57  ll
+   58  chmod +x script1.sh 
+   59  ll
+   60  clear
+   61  ll
+   62  ./script1.sh 
+   63  vi script1.sh 
+   64  ./script1.sh 
+   65  vi script1.sh 
+   66  ./script1.sh 
+   67  clear
+   68  ./script1.sh 
+   69  cat -n script1.sh 
+   70  ll
+   71  ls
+   72  ll billions/
+   73  clear
+   74  ls
+   75  ls billions/
+   76  ./script1.sh 
+   77  vi script1.sh 
+   78  ./script1.sh 
+   79  clear
+   80  ./script1.sh 
+   81  vi script1.sh 
+   82  ./script1.sh 
+   83  clear
+   84  vi script1.sh 
+   85  sudo yum install -y ksh
+   86  clear
+   87  ksh script1.sh 
+   88  clear
+   89  zsh script1.sh 
+   90  sudo yum install -y zsh
+   91  clear
+   92  zsh script1.sh 
+   93  vi script1.sh 
+   94  clear
+   95  zsh script1.sh 
+   96  ls
+   97  ls billions/
+   98  ll
+   99  ls billions/
+  100  cd billions/
+  101  ls
+  102  ll
+  103  mkdir millionares 
+  104  rm -rf millionares 
+  105  zsh script1.sh 
+  106  cd 
+  107  zsh script1.sh 
+  108  ls
+  109  rm -rf billions/
+  110  zsh script1.sh 
+  111  clear
+  112  who
+  113  whoami
+  114  who
+  115  clear
+  116  who
+  117  who > temp
+  118  sort temp
+  119  who | sort
+  120  ls -al | more
+  121  clear
+  122  ls -al 
+  123  ls -al | more
+  124  clear
+  125  ls -al | more
+  126  ps ug | grep myuserid
+  127  ps ug
+  128  clear
+  129  cat /etc/passwd
+  130  clear
+  131  sudo adduser jasmine
+  132  sudo adduser ashley philly
+  133  clear
+  134  sudo adduser ashley
+  135  sudo adduser calvin 
+  136  cat /etc/passwd
+  137  tail -5 /etc/passwd
+  138  clear
+  139  tail -5 /etc/passwd
+  140  sudo adduser simon
+  141  sudo adduser legah
+  142  sudo adduser amaka
+  143  tail -10 /etc/passwd
+  144  sudo adduser olohi
+  145  sudo adduser tese
+  146  sudo adduser delphine
+  147  sudo adduser lisa
+  148  tail -12 /etc/passwd
+  149  clear
+  150  who | grep tese
+  151  who | grep olohi
+  152  who | grep isi
+  153  who | grep ec2-user 
+  154  uname
+  155  uname -n
+  156  uname -r
+  157  uname -v
+  158  uname -m
+  159  uname -p
+  160  uname -o
+  161  cat /etc/redhat-release
+  162  cat /etc/*rel*
+  163  clear
+  164  cat /etc/*rel*
+  165  clear
+  166  ls
+  167  ll -a
+  168  ll -h
+  169  clear
+  170  ll -h
+  171  ls -la 
+  172  ls -al
+  173  clear
+  174  ls -la >> listings
+  175  ls -la
+  176  clear
+  177  ll
+  178  cat listings 
+  179  clear
+  180  echo "Hello World" >> findpath
+  181  ll
+  182  cat findpath 
+  183  pwd > findpath
+  184  clear
+  185  ll
+  186  cat findpath 
+  187  echo "Hello World" >> findpath
+  188  ll
+  189  cat findpath 
+  190  clear
+  191  cat < listings 
+  192  mail -s "office memo" allusers@abc.com < memoletter 
+  193  mkdir memoletter 
+  194  mail -s "office memo" allusers@abc.com < memoletter 
+  195  sudo yum install -y mail
+  196  clear
+  197  head listings 
+  198  less
+  199  less listings 
+  200  clear
+  201  cut listings 
+  202  sort listings 
+  203  sort 
+  204  clear
+  205  awk --version 
+  206  ll
+  207  clear
+  208  ll
+  209  sudo yum install -y zip
+  210  ll
+  211  clear
+  212  ll
+  213  zip script1.sh.zip script1.sh 
+  214  ll -h
+  215  clear
+  216  ls -h
+  217  ll
+  218  zip listings.zip listings 
+  219  ll
+  220  clear
+  221  ll
+  222  ls -l
+  223  clear
+  224  sudo yum install -y unzip
+  225  clear
+  226  ll
+  227  unzip script1.sh.zip 
+  228  ll
+  229  clear
+  230  unzip script1.sh.zip 
+  231  ll
+  232  unzip listings.zip 
+  233  ll
+  234  rm -rf listings.zip 
+  235  ls
+  236  tar -xvf script1.sh.zip.gz
+  237  tar -xvf temp.tar.gz
+  238  gzip  temp.tar.gz
+  239  clear
+  240  ll
+  241  gzip findpath 
+  242  ll
+  243  gzip listings temp test
+  244  ll
+  245  clear
+  246  echo "hello world" > test2
+  247  ll
+  248  clear
+  249  ll
+  250  vi test2
+  251  ll
+  252  clear
+  253  ll
+  254  tar -cvf test2.tar test2
+  255  ll
+  256  clear
+  257  ll
+  258  tar -xfv test2.tar
+  259  tar -xvf test2.tar
+  260  ll
+  261  rm -rf test2.tar
+  262  ll
+  263  clear
+  264  ll
+  265  clear
+  266  ll
+  267  mkdir scripts
+  268  ls
+  269  cd /opt
+  270  ls
+  271  clear
+  272  cd 
+  273  ll
+  274  rmdir scripts
+  275  ls
+  276  clear 
+  277  mkdir /opt/scripts
+  278  sudo mkdir /opt/scripts
+  279  cd /opt/scripts
+  280  sudo yum install -y vim 
+  281  clear
+  282  vim firscript.sh
+  283  cd ..
+  284  ls
+  285  rmdir scripts/
+  286  ls
+  287  sudo rmdir scripts/
+  288  ls
+  289  cd 
+  290  ls
+  291  mkdir scripts
+  292  vim myfirstscript.sh 
+  293  clear
+  294  sh myfirstscript.sh 
+  295  clear
+  296  ./myfirstscript.sh 
+  297  ll
+  298  chmod +x myfirstscript.sh 
+  299  ll
+  300  clear
+  301  ll
+  302  ./myfirstscript.sh 
+  303  clear
+  304  vim myfirstscript.sh 
+  305  ./myfirstscript.sh 
+  306  clear
+  307  ./myfirstscript.sh 
+  308  vim myfirstscript.sh 
+  309  clear
+  310  ./myfirstscript.sh 
+  311  clear
+  312  ./myfirstscript.sh 
+  313  vim myfirstscript.sh 
+  314  clear
+  315  ll
+  316  ls
+  317  clear
+  318  vim websetup.sh
+  319  ll
+  320  chmod +x websetup.sh 
+  321  ll
+  322  clear
+  323  ll
+  324  ./websetup.sh 
+  325  clear
+  326  sudo ./websetup.sh 
+  327  vim websetup.sh 
+  328  clear
+  329  sudo yum install -y unzip 
+  330  clear
+  331  vim websetup.sh 
+  332  sudo ./websetup.sh 
+  333  vim websetup.sh 
+  334  clear
+  335  sudo yum install -y unzip
+  336  clear
+  337  sudo ./websetup.sh 
+  338  vim websetup.sh 
+  339  clear
+  340  sudo ./websetup.sh 
+  341  vim websetup.sh 
+  342  clear
+  343  sudo ./websetup.sh 
+  344  config
+  345  ifconfig
+  346  sudo yum install -y ifconfig
+  347  curl ifconfig.co
+  348  vim websetup.sh 
+  349  clear
+  350  cd /var/www/html
+  351  ls
+  352  cd 
+  353  vim websetup.sh 
+  354  cd /var/www/html
+  355  ls
+  356  cd 
+  357  ls
+  358  vim websetup.sh 
+  359  #sudo copy -r 2108_dashboard/* /var/www/html
+  360  vim websetup.sh 
+  361  clear
+  362  cd /var/www/html
+  363  ls
+  364  #clear
+  365  cd 
+  366  ls
+  367  #cd 
+  368  cd /var/www/html
+  369  sudo copy -r 2108_dashboard*/ /var/www/html
+  370  #sudo cp -r 2108_dashboard*/ /var/www/html
+  371  cd
+  372  ls
+  373  vim websetup.sh 
+  374  clear
+  375  sudo ./websetup.sh 
+  376  clear
+  377  curl ifconfig.co
+  378  SKILL="DevOps"
+  379  echo $SKILL
+  380  skill
+  381  clear
+  382  PACKAGE="httpd wget unzip"
+  383  yum install $PACKAGE -y
+  384  sudo yum install $PACKAGE -y
+  385  clear
+  386  ls
+  387  cd script
+  388  cd scripts
+  389  ls
+  390  mv myfirstscript.sh 1_firstscript.sh
+  391  cd 
+  392  ls
+  393  clear
+  394  ls
+  395  mv myfirstscript.sh scripts
+  396  mv script1.sh websetup.shscripts
+  397  mv script1.sh websetup.sh scripts
+  398  mv script1.sh scripts
+  399  ls
+  400  cd scripts
+  401  ls
+  402  cd
+  403  ls
+  404  clear
+  405  ls
+  406  mv websetup.shscripts 3_vars_websetup.sh
+  407  ls
+  408  mv 3_vars_websetup.sh scripts
+  409  la
+  410  ls
+  411  cd scripts
+  412  ls
+  413  mv myfirstscript.sh 1_firstscript.sh
+  414  ls
+  415  mv websetup.sh 2_websetup.sh
+  416  ls
+  417  clear
+  418  ls
+  419  vim 3_vars_websetup.sh 
+  420  ls
+  421  vim 3_vars_websetup.sh 
+  422  ls
+  423  vim 2_websetup.sh 
+  424  cat 2_websetup.sh 
+  425  clear
+  426  vim dismantle.sh
+  427  clear
+  428  ll
+  429  chmod +x dismantle.sh 
+  430  ll
+  431  ./dismantle.sh 
+  432  clear
+  433  ll
+  434  ./2_websetup.sh 
+  435  clear
+  436  ll
+  437  ./dismantle.sh 
+  438  clear
+  439  cat 2_websetup.sh 
+  440  clear
+  441  ./2_websetup.sh 
+  442  clear
+  443  vim 2_websetup.sh 
+  444  ./2_websetup.sh 
+  445  vim 2_websetup.sh 
+  446  clear
+  447  ./2_websetup.sh 
+  448  vim 2_websetup.sh 
+  449  clear
+  450  cd 
+  451  ./2_websetup.sh 
+  452  cd -
+  453  ./2_websetup.sh 
+  454  clear
+  455  vim 2_websetup.sh 
+  456  ./2_websetup.sh 
+  457  vim 2_websetup.sh 
+  458  ./2_websetup.sh 
+  459  clear
+  460  vim 2_websetup.sh 
+  461  ./2_websetup.sh 
+  462  clear
+  463  ls
+  464  ./dismantle.sh 
+  465  clear
+  466  ./dismantle.sh 
+  467  clear
+  468  ./2_websetup.sh 
+  469  clear
+  470  vim 2_websetup.sh 
+  471  cd 
+  472  cd /tmp/webfiles
+  473  cd /tmp
+  474  ls
+  475  mkdir webfiles
+  476  ls
+  477  cd 
+  478  ls
+  479  rm -rf 2108_dashboard.zip.4
+  480  rm -rf 2108_dashboard.zip.5
+  481  rm -rf 2108_dashboard.zip.8
+  482  rm -rf 2108_dashboard.zip.9
+  483  rm -rf 2108_dashboard.zip.1
+  484  rm -rf 2108_dashboard.zip.2
+  485  rm -rf 2108_dashboard.zip.3
+  486  rm -rf 2108_dashboard.zip.4
+  487  rm -rf 2108_dashboard.zip.5
+  488  rm -rf 2108_dashboard.zip.6
+  489  rm -rf 2108_dashboard.zip.7
+  490  rm -rf 2108_dashboard.zip.8
+  491  rm -rf 2108_dashboard.zip.9
+  492  clear
+  493  ls
+  494  cd script
+  495  cd scripts
+  496  ls
+  497  ./dismantle.sh 
+  498  clear
+  499  ls
+  500  cat 3_vars_websetup.sh 
+  501  cat 2_websetup.sh 
+  502  clear
+  503  ls
+  504  cat 1_firstscript.sh 
+  505  clear
+  506  ls
+  507  vim 2_websetup.sh 
+  508  ./2_websetup.sh 
+  509  CLEAR
+  510  clear
+  511  vim 2_websetup.sh 
+  512  $PACKAGE
+  513  clear
+  514  PACKAGE=" unzip wget httpd " 
+  515  vim 2_websetup.sh 
+  516  ls
+  517  mv 2_websetup.sh /home/ec2-user 
+  518  cd 
+  519  ls
+  520  cd /tmp/webfiles/
+  521  ls
+  522  cd 
+  523  ./2_websetup.sh 
+  524  clear
+  525  ls
+  526  mv 2_websetup.sh scripts
+  527  ls
+  528  cd scripts
+  529  ls
+  530  vim 2_websetup.sh 
+  531  ls
+  532  rm -rf 2_websetup.sh 
+  533  vim 2_websetup.sh
+  534  ls
+  535  vim 2_websetup.sh
+  536  ls
+  537  clear
+  538  ls
+  539  ./dismantle.sh 
+  540  clear
+  541  ls
+  542  vim websetup.sh
+  543  ll
+  544  chmod +x websetup.sh 
+  545  ll
+  546  clear
+  547  ./websetup.sh 
+  548  clear
+  549  ls
+  550  ./dismantle.sh
+  551  clear
+  552  ll
+  553  vim websetup.sh 
+  554  ./websetup.sh 
+  555  clear
+  556  curl ifconfig.co
+  557  ls
+  558  mv websetup.sh 1_websetup.sh
+  559  ls
+  560  mv websetup.sh 2_websetup.sh
+  561  mv 1_websetup.sh 2_websetup.sh
+  562  ls
+  563  rm -rf
+  564  rm -rf 3_vars_websetup.sh 
+  565  ls
+  566  vim 3_vars_websetup.sh
+  567  ls
+  568  ll
+  569  chmod +x 3_vars_websetup.sh 
+  570  ll
+  571  clear
+  572  ll
+  573  ./dismantle.sh 
+  574  clear
+  575  ./dismantle.sh 
+  576  clear
+  577  ls
+  578  ./3_vars_websetup.sh 
+  579  clear
+  580  ./dismantle.sh 
+  581  clear
+  582  vim 3_vars_websetup.sh 
+  583  clear
+  584  ls
+  585  clear
+  586  ls
+  587  ll
+  588  clear
+  589  ll
+  590  ./dismantle.sh 
+  591  clear
+  592  ./dismantle.sh 
+  593  clear
+  594  ls
+  595  ./3_vars_websetup.sh 
+  596  clear
+  597  ./dismantle.sh 
+  598  clear
+  599  vim 3_vars_websetup.sh 
+  600  ./dismantle.sh 
+  601  clear
+  602  ./3_vars_websetup.sh 
+  603  clear
+  604  ll
+  605  curl ifconfig.co
+  606  ls
+  607  clear
+  608  ls
+  609  vim 1_firstscript.sh 
+  610  ls
+  611  ./1_firstscript.sh 
+  612  clear
+  613  ls
+  614  vim 2_websetup.sh 
+  615  curl ifconfig.co
+  616  vim 2_websetup.sh 
+  617  curl ifconfig.co
+  618  ssh-add
+  619  ssh-copy-id ec2-user@18.206.54.23
+  620  sudo ssh-copy-id ec2-user@18.206.54.23
+  621  clear
+  622  curl ifconfig.co 
+  623  sudo ssh-copy-id ec2-user@18.212.172.248
+  624  sudo ssh-copy-SHA256:MoX3FLBtrsh1amuP8hz3SeMmFQL8LrFvwbFsVrtgDcU ec2-user@18.212.172.248
+  625  sudo ssh-copy-MoX3FLBtrsh1amuP8hz3SeMmFQL8LrFvwbFsVrtgDcU ec2-user@18.212.172.248
+  626   ssh-copy-MoX3FLBtrsh1amuP8hz3SeMmFQL8LrFvwbFsVrtgDcU ec2-user@18.212.172.248
+  627  sudo ssh-copy-id ec2-user@apache
+  628  ssh-copy-id ec2-user@18.206.54.23
+  629  ssh-copy-id ec2-user@18.212.172.248
+  630  ssh-copy-id ec2-user@18.206.54.23
+  631  sudo ssh-copy-id ec2-user@18.206.54.23
+  632  clear
+  633  ls
+  634  clear
+  635  ls
+  636  clear
+  637  ll
+  638  clear
+  639  ls
+  640  vim 4_args.sh
+  641  ls
+  642  chmod +x 4_args.sh 
+  643  ls
+  644  ll
+  645  clear
+  646  ls
+  647  cd scripts
+  648  ls
+  649  vim 4_args.sh
+  650  clear
+  651  ll
+  652  chmod +x 4_args.sh 
+  653  ll
+  654  clear
+  655  ./4_args.sh 
+  656  clear
+  657  ./4_args.sh 
+  658  vim 4_args.sh
+  659  l
+  660  clear
+  661  ./4_args.sh 
+  662  vim 4_args.sh
+  663  clear
+  664  ./4_args.sh 
+  665  ls
+  666  clear
+  667  ls
+  668  ./4_args.sh Ansible Linux Jenkins Maven 
+  669  vim 4_args.sh
+  670  clear
+  671  ls
+  672  clear
+  673  ls
+  674  cp 3_vars_websetup.sh 5_args_websetup.sh 
+  675  vim 5_args_websetup.sh 
+  676  ./dismantle.sh 
+  677  clear
+  678  ll
+  679  ./5_args_websetup.sh https://www.tooplate.com/zip-templates/2102_constructive.zip
+  680  clear
+  681  vim 5_args_websetup.sh 
+  682  ./5_args_websetup.sh https://www.tooplate.com/zip-templates/2102_constructive.zip
+  683  clear
+  684  ls
+  685  rm -rf 5_args_websetup.sh 
+  686  ls
+  687  vim 5_args_websetup.sh
+  688  clear
+  689  ./dismantle.sh 
+  690  clear
+  691  ./dismantle.sh 
+  692  clear
+  693  ll
+  694  chmod +x 5_args_websetup.sh 
+  695  clear
+  696  ./5_args_websetup.sh 
+  697  clear
+  698  vim 5_args_websetup.sh 
+  699  clear
+  700  ls
+  701  ./dismantle.sh 
+  702  clear
+  703  ./3_vars_websetup.sh 
+  704  clear
+  705  ls
+  706  vim 5_args_websetup.sh 
+  707  ./dismantle.sh 
+  708  clear
+  709  ./dismantle.sh 
+  710  clear
+  711  ls
+  712  ./5_args_websetup.sh https://www.tooplate.com/zip-templates/2109_the_card.zip
+  713  clear
+  714  vim 5_args_websetup.sh 
+  715  vim dismantle.sh 
+  716  ll
+  717  ./5_args_websetup.sh https://www.tooplate.com/zip-templates/2109_the_card.zip
+  718  clear
+  719  ls
+  720  ./3_vars_websetup.sh 
+  721  clear
+  722  ls
+  723  ./5_args_websetup.sh 
+  724  clear
+  725  vim 5_args_websetup.sh 
+  726  vim test_args_script
+  727  mv test_args_script test_args_script.sh 
+  728  ls
+  729  vim test_args_script.sh 
+  730  clear
+  731  ll
+  732  chmod +x test_args_script.sh 
+  733  ./test_args_script.sh 
+  734  vim test_args_script.sh 
+  735  clear
+  736  ./test_args_script.sh 
+  737  vim test_args_script.sh 
+  738  clear
+  739  ./test_args_script.sh Ashley 
+  740  vim test_args_script.sh 
+  741  clear
+  742  ./test_args_script.sh Ashley 
+  743  clear
+  744  ls
+  745  echo $?
+  746  $RANDOM
+  747  $RANDOM varible can be used to win the lotery tickets
+  748  $1 variable 
+  749  $1
+  750  ls
+  751  clear
+  752  echo $@
+  753  echo $#
+  754  echo $?
+  755  clear
+  756  SKILL="DevOps"
+  757  $SKILL
+  758  echo $SKILL
+  759  echo $RANDOM
+  760  clear
+  761  clear
+  762  ls
+  763  man countw
+  764  man wcount
+  765  man wc
+  766  count p
+  767  man count p
+  768  whereis wc
+  769  clear
+  770  ls
+  771  wc test2
+  772  vim test2
+  773  uname
+  774  ll test2
+  775  ll -h 
+  776  clear
+  777  man vi
+  778  vim test2
+  779  lc test2
+  780  wc -l test2
+  781  wc -b test2
+  782  clear
+  783  mail
+  784  whereis mail
+  785  man mail
+  786  clear
+  787  whereis msg
+  788  man msg
+  789  write
+  790  man write
+  791  whereis write
+  792  tail -3 /etc/passwd
+  793  write "Hello" lisa
+  794  clear
+  795  who 
+  796  clear
+  797  tail -15 /etc/passwd
+  798  tail -5 /etc/passwd
+  799  clear
+  800  tail -5 /etc/passwd
+  801  clear
+  802  sudo hostnamectl set-hostname apache
+  803  su - ec2-user 
+  804  sudo su - ec2-user 
+  805  clear
+  806  ssh-keygen -t rsa
+  807  clear
+  808  ssh-add
+  809  ssh -add
+  810  ssh-add SHA256:MoX3FLBtrsh1amuP8hz3SeMmFQL8LrFvwbFsVrtgDcU
+  811  ssh -add SHA256:MoX3FLBtrsh1amuP8hz3SeMmFQL8LrFvwbFsVrtgDcU
+  812  ssh-add -SHA256:MoX3FLBtrsh1amuP8hz3SeMmFQL8LrFvwbFsVrtgDcU
+  813  ssh-add - SHA256:MoX3FLBtrsh1amuP8hz3SeMmFQL8LrFvwbFsVrtgDcU
+  814  sudo ssh-add - SHA256:MoX3FLBtrsh1amuP8hz3SeMmFQL8LrFvwbFsVrtgDcU
+  815  man ssh-add
+  816  eval 'ssh-agent'
+  817  clear
+  818  echo $SSH_AGENT_SOCK
+  819  echo $ssh_agent_sock
+  820  clear
+  821  echo $SSH_AGENT_SOCK
+  822  ssh-add
+  823  sudo ssh-add - SHA256:MoX3FLBtrsh1amuP8hz3SeMmFQL8LrFvwbFsVrtgDcU
+  824  eval ssh-agent
+  825  ssh-add
+  826  ssh -add
+  827  clear
+  828  ssh-add
+  829  ssh-agent bash
+  830  clear
+  831  echo $0
+  832  echo $1
+  833  echo $#
+  834  echo $? 
+  835  freeeee -m 
+  836  frrrrrreeeeeeeeeeee -m 
+  837  echo $?
+  838  echo $$
+  839  echo $USER 
+  840  echo $HOSTNAME
+  841  echo $SECONDS 
+  842  clear
+  843  history 
+  844  clear
+  845  echo history > script_commands.txt
+  846  ls
+  847  cat  script_commands.txt 
+  848  ls history 
+  849  history 
+  850  clear
+  851  ls
+  852  cat script_commands.txt 
+  853  history >> script_commands.txt 
+Free RAM is 174 mb.
+   69  ls
+   70  rm -rf
+   71  rm -rf 3_vars_websetup.sh 
+   72  ls
+   73  vim 3_vars_websetup.sh
+   74  ls
+   75  ll
+   76  chmod +x 3_vars_websetup.sh 
+   77  ll
+   78  clear
+   79  ll
+   80  ./dismantle.sh 
+   81  clear
+   82  ./dismantle.sh 
+   83  clear
+   84  ls
+   85  ./3_vars_websetup.sh 
+   86  clear
+   87  ./dismantle.sh 
+   88  clear
+   89  vim 3_vars_websetup.sh 
+   90  clear
+   91  ls
+   92  clear
+   93  ls
+   94  ll
+   95  clear
+   96  ll
+   97  ./dismantle.sh 
+   98  clear
+   99  ./dismantle.sh 
+  100  clear
+  101  ls
+  102  ./3_vars_websetup.sh 
+  103  clear
+  104  ./dismantle.sh 
+  105  clear
+  106  vim 3_vars_websetup.sh 
+  107  ./dismantle.sh 
+  108  clear
+  109  ./3_vars_websetup.sh 
+  110  clear
+  111  ll
+  112  curl ifconfig.co
+  113  ls
+  114  clear
+  115  ls
+  116  vim 1_firstscript.sh 
+  117  ls
+  118  ./1_firstscript.sh 
+  119  clear
+  120  ls
+  121  vim 2_websetup.sh 
+  122  curl ifconfig.co
+  123  vim 2_websetup.sh 
+  124  curl ifconfig.co
+  125  ssh-add
+  126  ssh-copy-id ec2-user@18.206.54.23
+  127  sudo ssh-copy-id ec2-user@18.206.54.23
+  128  clear
+  129  curl ifconfig.co 
+  130  sudo ssh-copy-id ec2-user@18.212.172.248
+  131  sudo ssh-copy-SHA256:MoX3FLBtrsh1amuP8hz3SeMmFQL8LrFvwbFsVrtgDcU ec2-user@18.212.172.248
+  132  sudo ssh-copy-MoX3FLBtrsh1amuP8hz3SeMmFQL8LrFvwbFsVrtgDcU ec2-user@18.212.172.248
+  133   ssh-copy-MoX3FLBtrsh1amuP8hz3SeMmFQL8LrFvwbFsVrtgDcU ec2-user@18.212.172.248
+  134  sudo ssh-copy-id ec2-user@apache
+  135  ssh-copy-id ec2-user@18.206.54.23
+  136  ssh-copy-id ec2-user@18.212.172.248
+  137  ssh-copy-id ec2-user@18.206.54.23
+  138  sudo ssh-copy-id ec2-user@18.206.54.23
+  139  clear
+  140  ls
+  141  clear
+  142  ls
+  143  clear
+  144  ll
+  145  clear
+  146  ls
+  147  vim 4_args.sh
+  148  ls
+  149  chmod +x 4_args.sh 
+  150  ls
+  151  ll
+  152  clear
+  153  ls
+  154  cd scripts
+  155  ls
+  156  vim 4_args.sh
+  157  clear
+  158  ll
+  159  chmod +x 4_args.sh 
+  160  ll
+  161  clear
+  162  ./4_args.sh 
+  163  clear
+  164  ./4_args.sh 
+  165  vim 4_args.sh
+  166  l
+  167  clear
+  168  ./4_args.sh 
+  169  vim 4_args.sh
+  170  clear
+  171  ./4_args.sh 
+  172  ls
+  173  clear
+  174  ls
+  175  ./4_args.sh Ansible Linux Jenkins Maven 
+  176  vim 4_args.sh
+  177  clear
+  178  ls
+  179  clear
+  180  ls
+  181  cp 3_vars_websetup.sh 5_args_websetup.sh 
+  182  vim 5_args_websetup.sh 
+  183  ./dismantle.sh 
+  184  clear
+  185  ll
+  186  ./5_args_websetup.sh https://www.tooplate.com/zip-templates/2102_constructive.zip
+  187  clear
+  188  vim 5_args_websetup.sh 
+  189  ./5_args_websetup.sh https://www.tooplate.com/zip-templates/2102_constructive.zip
+  190  clear
+  191  ls
+  192  rm -rf 5_args_websetup.sh 
+  193  ls
+  194  vim 5_args_websetup.sh
+  195  clear
+  196  ./dismantle.sh 
+  197  clear
+  198  ./dismantle.sh 
+  199  clear
+  200  ll
+  201  chmod +x 5_args_websetup.sh 
+  202  clear
+  203  ./5_args_websetup.sh 
+  204  clear
+  205  vim 5_args_websetup.sh 
+  206  clear
+  207  ls
+  208  ./dismantle.sh 
+  209  clear
+  210  ./3_vars_websetup.sh 
+  211  clear
+  212  ls
+  213  vim 5_args_websetup.sh 
+  214  ./dismantle.sh 
+  215  clear
+  216  ./dismantle.sh 
+  217  clear
+  218  ls
+  219  ./5_args_websetup.sh https://www.tooplate.com/zip-templates/2109_the_card.zip
+  220  clear
+  221  vim 5_args_websetup.sh 
+  222  vim dismantle.sh 
+  223  ll
+  224  ./5_args_websetup.sh https://www.tooplate.com/zip-templates/2109_the_card.zip
+  225  clear
+  226  ls
+  227  ./3_vars_websetup.sh 
+  228  clear
+  229  ls
+  230  ./5_args_websetup.sh 
+  231  clear
+  232  vim 5_args_websetup.sh 
+  233  vim test_args_script
+  234  mv test_args_script test_args_script.sh 
+  235  ls
+  236  vim test_args_script.sh 
+  237  clear
+  238  ll
+  239  chmod +x test_args_script.sh 
+  240  ./test_args_script.sh 
+  241  vim test_args_script.sh 
+  242  clear
+  243  ./test_args_script.sh 
+  244  vim test_args_script.sh 
+  245  clear
+  246  ./test_args_script.sh Ashley 
+  247  vim test_args_script.sh 
+  248  clear
+  249  ./test_args_script.sh Ashley 
+  250  clear
+  251  ls
+  252  echo $?
+  253  $RANDOM
+  254  $RANDOM varible can be used to win the lotery tickets
+  255  $1 variable 
+  256  $1
+  257  ls
+  258  clear
+  259  echo $@
+  260  echo $#
+  261  echo $?
+  262  clear
+  263  SKILL="DevOps"
+  264  $SKILL
+  265  echo $SKILL
+  266  echo $RANDOM
+  267  clear
+  268  clear
+  269  ls
+  270  man countw
+  271  man wcount
+  272  man wc
+  273  count p
+  274  man count p
+  275  whereis wc
+  276  clear
+  277  ls
+  278  wc test2
+  279  vim test2
+  280  uname
+  281  ll test2
+  282  ll -h 
+  283  clear
+  284  man vi
+  285  vim test2
+  286  lc test2
+  287  wc -l test2
+  288  wc -b test2
+  289  clear
+  290  mail
+  291  whereis mail
+  292  man mail
+  293  clear
+  294  whereis msg
+  295  man msg
+  296  write
+  297  man write
+  298  whereis write
+  299  tail -3 /etc/passwd
+  300  write "Hello" lisa
+  301  clear
+  302  who 
+  303  clear
+  304  tail -15 /etc/passwd
+  305  tail -5 /etc/passwd
+  306  clear
+  307  tail -5 /etc/passwd
+  308  clear
+  309  sudo hostnamectl set-hostname apache
+  310  su - ec2-user 
+  311  sudo su - ec2-user 
+  312  clear
+  313  ssh-keygen -t rsa
+  314  clear
+  315  ssh-add
+  316  ssh -add
+  317  ssh-add SHA256:MoX3FLBtrsh1amuP8hz3SeMmFQL8LrFvwbFsVrtgDcU
+  318  ssh -add SHA256:MoX3FLBtrsh1amuP8hz3SeMmFQL8LrFvwbFsVrtgDcU
+  319  ssh-add -SHA256:MoX3FLBtrsh1amuP8hz3SeMmFQL8LrFvwbFsVrtgDcU
+  320  ssh-add - SHA256:MoX3FLBtrsh1amuP8hz3SeMmFQL8LrFvwbFsVrtgDcU
+  321  sudo ssh-add - SHA256:MoX3FLBtrsh1amuP8hz3SeMmFQL8LrFvwbFsVrtgDcU
+  322  man ssh-add
+  323  eval 'ssh-agent'
+  324  clear
+  325  echo $SSH_AGENT_SOCK
+  326  echo $ssh_agent_sock
+  327  clear
+  328  echo $SSH_AGENT_SOCK
+  329  ssh-add
+  330  sudo ssh-add - SHA256:MoX3FLBtrsh1amuP8hz3SeMmFQL8LrFvwbFsVrtgDcU
+  331  eval ssh-agent
+  332  ssh-add
+  333  ssh -add
+  334  clear
+  335  ssh-add
+  336  ssh-agent bash
+  337  clear
+  338  echo $0
+  339  echo $1
+  340  echo $#
+  341  echo $? 
+  342  freeeee -m 
+  343  frrrrrreeeeeeeeeeee -m 
+  344  echo $?
+  345  echo $$
+  346  echo $USER 
+  347  echo $HOSTNAME
+  348  echo $SECONDS 
+  349  clear
+  350  history 
+  351  clear
+  352  echo history > script_commands.txt
+  353  ls
+  354  cat  script_commands.txt 
+  355  ls history 
+  356  history 
+  357  clear
+  358  ls
+  359  cat script_commands.txt 
+  360  history >> script_commands.txt 
+  361  vim script_commands.txt 
+  362  echo $LINEO
+  363  clear
+  364  uptime
+  365  UP=`uptime`
+  366  echo $UP
+  367  who 
+  368  CURRENT_USER=$(who)
+  369  echo $CURRENT_USER
+  370  clear
+  371  fee -m | grep Mem
+  372  free -m | grep Mem
+  373  free -m | grep Mem | awk '{print $4}'
+  374  FREE_RAM=`free -m | grep Mem | awk '{print $4}'`
+  375  echo "Free RAM is $FREE_RAM mb."
+  376  echo "Free RAM is $FREE_RAM mb." >> script_commands.txt 
+  377  vim script_commands.txt 
+  378  clear
+  379  ls
+  380  vim 6_command_subs_prints-health-system.sh
+  381  ls
+  382  ll
+  383  chmod +x 6_command_subs_prints-health-system.sh 
+  384  clear
+  385  ./6_command_subs_prints-health-system.sh 
+  386  vim 6_command_subs_prints-health-system.sh 
+  387  ./6_command_subs_prints-health-system.sh 
+  388  vim 6_command_subs_prints-health-system.sh 
+  389  clear
+  390  free
+  391  free -h
+  392  df -h
+  393  clear
+  394  vim 6_command_subs_prints-health-system.sh 
+  395  ./6_command_subs_prints-health-system.sh 
+  396  vim 6_command_subs_prints-health-system.sh 
+  397  ./6_command_subs_prints-health-system.sh 
+  398  clear
+  399  ./6_command_subs_prints-health-system.sh 
+  400  clear
+  401  vim testvars.sh 
+  402  chmod +x testvars.sh 
+  403  SEASON="Monsoon"
+  404  echo $SEASON
+  405  exit
+  406  clear
+  407  echo $SEASON
+  408  SEASON="Monsoon"
+  409  echo $SEASON
+  410  ./testvars.sh 
+  411  export SEASON 
+  412  ./testvars.sh 
+  413  exit
+  414  ./testvars.sh 
+  415  ls
+  416  ls -a 
+  417  clear 
+  418  ls -a 
+  419  source .bashrc
+  420  vi .bashrc
+  421  exit
+  422  ./testvars.sh 
+  423  whoami
+  424  clear
+  425  vim /etc/profile
+  426  sudo vim /etc/profile
+  427  ls -a
+  428  exit 
+  429  clear
+  430  echo $SEASON
+  431  clear
+  432  vim 7_userInput.sh 
+  433  chmod +x7_userInput.sh 
+  434  chmod +x 7_userInput.sh 
+  435  ./7_userInput.sh 
+  436  clear
+  437  ls
+  438  mv 6_command_subs_prints-health-system.sh scripts
+  439  mv 7_userInput.sh scripts
+  440  mv testvars.sh scripts
+  441  ls
+  442  mv 4_args.sh scipts
+  443  ls
+  444  clear
+  445  ls
+  446  rm -rf 2108_dashboard.zip
+  447  rm -rf 2108_dashboard.zip 
+  448  ls
+  449  clear
+  450  ls
+  451  rm -rf 2108_dashboard.zip.
+  452  clear
+  453  ls
+  454  rm -rf 2108_dashboard.zip.2 
+  455  clear
+  456  ls
+  457  rm -rf 2108_dashboard.zip.1 
+  458  clear
+  459  ls
+  460  mv scripts scripts
+  461  clear
+  462  ls
+  463  rm -rf listings.gz
+  464  rm -rf findpath.gz 
+  465  ls
+  466  rmdir billions  memoletter
+  467  rmdir billions  
+  468  cd billions/
+  469  ls
+  470  cd 
+  471  rm -rf billions  memoletter
+  472  clear
+  473  ls
+  474  rm -rf script1.sh.zip
+  475  ls
+  476  clear
+  477  ls
+  478  rm -rf scipts
+  479  ls
+  480  cat script_commands.txt 
+  481  clear
+  482  ls
+  483  mv script_commands.txt scripts
+  484  ls
+  485  rm -rf temp.gz 
+  486  rm -rf test.gz 
+  487  ls
+  488  cat test2 
+  489  clear
+  490  ls
+  491  rm -rf test2 
+  492  ls
+  493  cd scripts/
+  494  ls
+  495  clear
+  496  ll
+  497  clear
+  498  ls
+  499  ./6_command_subs_prints-health-system.sh 
+  500  clear
+  501  vim 8_if1.sh 
+  502  ll
+  503  ll | 8_if1.sh 
+  504  ll 8_if1.sh 
+  505  chmod +x 8_if1.sh 
+  506  clear
+  507  ./8_if1.sh 
+  508  clear
+  509  ./8_if1.sh 
+  510  vim 8_if1.sh 
+  511  clear
+  512  ./8_if1.sh 
+  513  clear
+  514  ./8_if1.sh 
+  515  cp 8_if1.sh 9_if1.sh 
+  516  ls
+  517  vim 9_if1.sh 
+  518  clear
+  519  ll
+  520  ll -h 9_if1.sh 
+  521  clear
+  522  ll -h 9_if1.sh 
+  523  ./9_if1.sh 
+  524  vim 9_if1.sh 
+  525  ./9_if1.sh 
+  526  vim 9_if1.sh 
+  527  ./9_if1.sh 
+  528  clear
+  529  ip addr show
+  530  ip addr show | grep -v
+  531  ip addr show | grep -v loopback
+  532  clear
+  533  ip addr show | grep -v loopback
+  534  ip addr show | grep -ic ntu
+  535  clear
+  536  ip addr show | grep -ic ntu
+  537  vim 9_ifelif.sh
+  538  ll
+  539  ll 9_if
+  540  chmod +x 1_firstscript.sh 
+  541  ./1_firstscript.sh 
+  542  clear
+  543  ll
+  544  ./8_if1.sh 
+  545  ./9_if1.sh 
+  546  rm -rf 8_if1.sh 
+  547  ls
+  548  clear
+  549  ll
+  550  clear
+  551  ls
+  552  mv 9_if1.sh 8_if1.sh 
+  553  ls
+  554  chmod +x 8_if1.sh 
+  555  clear
+  556  ls
+  557  vim 9_ifelif.sh 
+  558  chmod +x 9_ifelif.sh 
+  559  ./9_ifelif.sh 
+  560  vim 9_ifelif.sh 
+  561  clear
+  562  ./9_ifelif.sh 
+  563  vim 9_ifelif.sh 
+  564  clear
+  565  ./9_ifelif.sh 
+  566  vim 9_ifelif.sh 
+  567  ./9_ifelif.sh 
+  568  vim 9_ifelif.sh 
+  569  ./9_ifelif.sh 
+  570  clear
+  571  ./9_ifelif.sh 
+  572  clear
+  573  echo $?
+  574  freee -m 
+  575  echo $?
+  576  free -m 
+  577  echo $?
+  578  cat /var/run/httpd/ht
+  579  sudo /var/run/httpd/ht
+  580  cat /var/run/httpd/ht
+  581  cat /var/run/httpd/httpd.pid
+  582  clear
+  583  sudo systemctl start httpd
+  584  sudo systemctl status httpd
+  585  clear
+  586  ll
+  587  clear
+  588  vim ll_monit.sh 
+  589  ll
+  590  mv ll_monit.sh 11_moit.sh 
+  591  ll
+  592  clear
+  593  ll
+  594  chmod +x 11_moit.sh 
+  595  clear
+  596  ./11_moit.sh 
+  597  clear
+  598  passwd ec2-user 
+  599  sudo passwd ec2-user 
+  600  clear
+  601  ./11_moit.sh 
+  602  vim ll_monit.sh 
+  603  clear
+  604  vim 11_moit.sh 
+  605  clear
+  606  ./11_moit.sh 
+  607  sudo systemctl status httpd 
+  608  clear
+  609  sudo systemctl stop httpd
+  610  ./11_moit.sh 
+  611  whereami
+  612  pwd
+  613  crontab -e 
+  614  sudo systemctl stop httpd
+  615  clear
+  616  ll
+  617  clear
+  618  ls /var/log/monit_httpd.log
+  619  cd 
+  620  ls /var/log/monit_httpd.log
+  621  ls /var/log
+  622  cd scripts/
+  623  ls
+  624  ll
+  625  cat 11_moit.sh 
+  626  clear
+  627  cd
+  628  crontab -e 
+  629  ls /var/log
+  630  ll
+  631  clear
+  632  ll
+  633  ll /var/log
+  634  clear
+  635  cd scripts/
+  636  clear
+  637  cd 
+  638  ls /var/log/monit_httpd.log
+  639  ls /var/log
+  640  crontab -e 
+  641  ls /var/log/
+  642  clear
+  643  ls /var/log
+  644  crontab -e 
+  645  cd scripts/
+  646  clear
+  647  ls
+  648  crontab -e
+  649  ls /var/log/monit_httpd.log
+  650  ls /var/log/
+  651  cd 
+  652  touch /var/log/monit_httpd.log
+  653  sudo touch /var/log/monit_httpd.log
+  654  ls /var/log/monit_httpd.log 
+  655  cd /var/log
+  656  clear
+  657  ls
+  658  ls -a
+  659  rm -rf /var/log/monit_httpd.log 
+  660  sudo rm -rf /var/log/monit_httpd.log 
+  661  sudo touch monit_httpd.log
+  662  clear
+  663  ls 
+  664  clear
+  665  ll -h
+  666  clear
+  667  crontab -e 
+  668  cd 
+  669  cd scripts/
+  670  clear
+  671  sudo systemctl status httpd
+  672  clear
+  673  sudo systemctl start httpd 
+  674  sudo systemctl status httpd
+  675  clear
+  676  ls /var/log/monit_httpd.log
+  677  cat /var/log/monit_httpd.log
+  678  sudo systemctl stop httpd 
+  679  sudo systemctl status httpd
+  680  clear
+  681  crontab -e 
+  682  ls /var/log/monit_httpd.log 
+  683  cat /var/log/monit_httpd.log 
+  684  crontab -e
+  685  cat /var/log/monit_httpd.log 
+  686  crontab -e
+  687  clear
+  688  ls
+  689  mv 11_moit.sh 11_monit.sh 
+  690  ls
+  691  crontab -e
+  692  clear
+  693  sudo systemctl stop httpd
+  694  sudo systemctl start httpd
+  695  sudo systemctl status httpd
+  696  clear
+  697  sudo systemctl stop httpd
+  698  cat /var/log/monit_httpd.log 
+  699  ls /var/log/monit_httpd.log 
+  700  cat /var/log/monit_httpd.log/var/log/monit_httpd.log
+  701  clear
+  702  tail -f /var/log/monit_httpd.log
+  703  ls
+  704  cp 11_monit.sh 12_monit.sh 
+  705  ls
+  706  vim 12_monit.sh 
+  707  chmod +x 12_monit.sh 
+  708  ./12_monit.sh 
+  709  clear
+  710  ls
+  711  clear
+  712  vim 13.for.sh
+  713  chmod +x 13.for.sh 
+  714  ./13.for.sh 
+  715  vim 13.for.sh
+  716  ./13.for.sh 
+  717  clear
+  718  ./13.for.sh 
+  719  vim 13.for.sh
+  720  ./13.for.sh 
+  721  vim 13.for.sh
+  722  clear
+  723  ./13.for.sh 
+  724  clear
+  725  ls
+  726  vim 13.for.sh 
+  727  clear
+  728  ./13.for.sh 
+  729  clear
+  730  vim 14_for.sh
+  731  chmod +x 14_for.sh 
+  732  ./14_for.sh 
+  733  clear
+  734  chmod +x 14_for.sh 
+  735  ll
+  736  clear
+  737  vim 14_for.sh 
+  738  ./14_for.sh 
+  739  vim 14_for.sh 
+  740  ./14_for.sh 
+  741  clear
+  742  ./14_for.sh 
+  743  vim 14_for.sh 
+  744  clear
+  745  ./14_for.sh 
+  746  clear
+  747  vim quizq1.sh
+  748  chmod +x quizq1.sh 
+  749  ./quizq1.sh 
+  750  vim quizq1.sh
+  751  ./quizq1.sh 
+  752  clear
+  753  ls
+  754  vim 13.for.sh 
+  755  vim quizq1.sh
+  756  clear
+  757  ./quizq1.sh 
+  758  vim quizq2.sh 
+  759  clear
+  760  ls
+  761  chmod +x quizq2.sh
+  762  ./quizq2.sh
+  763  clear
+  764  ./quizq2.sh
+  765  vim quizq2.sh 
+  766  clear
+  767  ./quizq2.sh
+  768  vim quizq2.sh 
+  769  ./quizq2.sh
+  770  vim quizq2.sh 
+  771  clear
+  772  ./quizq2.sh
+  773  vim quizq2.sh 
+  774  ./quizq2.sh
+  775  vim quizq2.sh 
+  776  clear
+  777  ./quizq2.sh
+  778  clear
+  779  ./quizq2.sh
+  780  clear
+  781  ./quizq2.sh
+  782  vim quizq2.sh 
+  783  clear
+  784  ./quizq2.sh
+  785  cat quizq2.sh 
+  786  clear
+  787  vim 15_while.sh
+  788  chmod +x 15_while.sh 
+  789  ./15_while.sh 
+  790  clear
+  791  vim 15_while.sh
+  792  ./15_while.sh 
+  793  clear
+  794  cp 15_while.sh 16_while.sh 
+  795  vim 16_while.sh 
+  796  clear
+  797  ./15_while.sh 
+  798  clear
+  799  chmod +x 16_while.sh 
+  800  ./16_while.sh 
+  801  clear
+  802  ssh-keygen
+  803  clear
+  804  ls
+  805  clear
+  806  ls
+  807  cd scripts/
+  808  ls
+  809  vim 1_firstscript.sh 
+  810  mv 1_firstscript.sh print_system_info
+  811  clear
+  812  ls
+  813  ll
+  814  clear
+  815  ls
+  816  ll print_system_info 
+  817  clear
+  818  ./print_system_info 
+  819  clear
+  820  ls
+  821  ll 6_command_subs_prints-health-system.sh 
+  822  ./6_command_subs_prints-health-system.sh 
+  823  clear
+  824  ls
+  825  mv print_system_info print_system_info.sh
+  826  ll print_system_info.sh 
+  827  clear
+  828  ls
+  829  mv 6_command_subs_prints-health-system.sh print-system-health
+  830  clear
+  831  ls
+  832  ./2_websetup.sh 
+  833  clear
+  834  ls
+  835  vim 2_websetup.sh 
+  836  mv 2_websetup.sh websetup.sh 
+  837  ls
+  838  clear
+  839  ls
+  840  vim 3_vars_websetup.sh 
+  841  free -m 
+  842  clear
+  843  free -m 
+  844  free -m | grep Mem 
+  845  free -m | grep Mem | awk `{print $4}`
+  846  clear
+  847  free -m | grep Mem | awk `{print $4}`
+  848  clear
+  849  free -m | grep Mem | awk '{print $4}'
+  850  FREE_RAM `free -m | grep Mem | awk '{print $4}'`
+  851  FREE_RAM=`free -m | grep Mem | awk '{print $4}'`
+  852  echo $FREE_RAM 
+  853  echo "Free RAM is $FREE_RAM mb."
+  854  free -m | grep Mem 
+  855  free -m 
+  856  clear
+  857  FREE_RAM=`free -m | grep Mem | awk '{print $4}'`
+  858  free -m | grep Mem | awk '{print $4}'
+  859  echo "Free RAM is $FREE_RAM mb."
+  860  read -p 
+  861  clear
+  862  read -p "Enter file name: " filename 
+  863  read -p "Enter file name:  filename"
+  864  read -p "Enter file name:"  filename
+  865  clear
+  866  read -p "Enter file name:"  filename
+  867  echo $filename
+  868  FULLNAME='read -p "Enter file name:" filename'
+  869  echo $FULLNAME
+  870  FULLNAME='read -p' 
+  871  echo $FULLNAME
+  872  FULLNAME=`read -p` 
+  873  clear
+  874  FULLNAME= "Enter Full name `read -p`" 
+  875  clear
+  876  FULLNAME='read -p' 
+  877  echo $FULLNAME
+  878  FULLNAME="read -p" 
+  879  echo FULLNAME
+  880  FULLNAME="Isi Pringle"
+  881  echo $FULLNAME 
+  882  FULLNAME='read -p'
+  883  echo $FULLNAME
+  884  FULLNAME=read -p
+  885  #FULLNAME='read'
+  886  echo /etc/shells
+  887  cat /etc/shell
+  888  cat /etc/shells
+  889  clear
+  890  cat /etc/shells
+  891  SHELLS='cat /etc/shells'
+  892  echo $SHELLS
+  893  SHELLS=`cat /etc/shells`
+  894  echo $SHELLS
+  895  clear
+  896  echo $SHELLS
+  897  SHELLS=`ls /etc/shells`
+  898  echo $SHELLS
+  899  SHELLS=`cat /etc/shells`
+  900  echo $SHELLS
+  901  SHELLS=`ls -h /etc/shells`
+  902  echo $SHELLS
+  903  SHELLS=`ls -h /home/ec2-user/etc/shells`
+  904  SHELLS=`cat /etc/shells`
+  905  echo $SHELLS
+  906  clear
+  907  env
+  908  clear
+  909  printenv
+  910  LOGNAME
+  911  $LOGNAME
+  912  echo $LOGNAME
+  913  echo $SEASON
+  914  clear
+  915  echo 'TERM='$HOSTNAME
+  916  echo 'SHELL='$SHELL
+  917  echo 'SSH_CLIENT='$SSH_CLIENT
+  918  echo 'QTDIR='$QTDIR
+  919  name=LandmarkTechnologies
+  920  echo $name
+  921  city=London
+  922  echo $city
+  923  echo $SHELL
+  924  $HOSTNAME
+  925  echo $HOSTNAME
+  926  clear 
+  927  echo $RANDOM
+  928  echo $LINEO
+  929  echo $$
+  930  clear
+  931  echo $?
+  932  echo $1
+  933  clear
+  934  echo $0
+  935  echo 'HISTSIZE='$SSH_CLIENT
+  936  echo 'BASH='$BASH
+  937  echo 'BASH='
+  938  echo $BASH
+  939  echo 'HOSTNAME'
+  940  echo $HOSTNAME
+  941  clear
+  942  env
+  943  clear
+  944  echo $TERM
+  945  echo $HISTSIZE
+  946  echo $PWD
+  947  echo $LANG
+  948  echo $HISTCONTROL
+  949  echo SHLVL
+  950  echo $SHLVL
+  951  history
+  952  clear
+  953  history 
+  954  clear
+  955  export HISTSIZE=200
+  956  echo $HISTSIZE
+  957  export HISTSIZE=1000
+  958  ls -a 
+  959  vi .bashrc
+  960  cd 
+  961  ls -a 
+  962  vim .bashrc 
+  963  cat -n 
+  964  cleatr
+  965  clear
+  966  vim db_backup.sh 
+  967  chmod db_backup.sh 
+  968  chmod +x db_backup.sh 
+  969  ./db_backup.sh 
+  970  ./db_backup.sh dev db1 simon
+  971  vim db_backup.sh 
+  972  clear
+  973  ./db_backup.sh dev db1 simon
+  974  expr 90 + 1000
+  975  clear
+  976  ls
+  977  cp db_backup.sh scripts
+  978  clear
+  979  cd scripts/
+  980  ls
+  981  echo $?
+  982  expr 9 * 5
+  983  echo $?
+  984  expr 9\* 5
+  985  expr 9 \* 5
+  986  expr 9 / 5
+  987  clear
+  988  vim sao.sh
+  989  chmod +x sao.sh 
+  990  ./sao.sh 
+  991  vim sao2.sh
+  992  clear
+  993  cleear
+  994  clear
+  995  cd scripts/
+  996  ls
+  997  clear
+  998   clear
+  999  sudo -i
+ 1000  sudo su - isi
+ 1001  clear
+ 1002  cat /etc/shells
+ 1003  cd scripts/
+ 1004  clear
+ 1005  ls
+ 1006  vim script1.sh 
+ 1007  clear
+ 1008  chmod +x script1.sh 
+ 1009  ./script1.sh 
+ 1010  ls
+ 1011  cd billions/
+ 1012  ls
+ 1013  cat millionaires 
+ 1014  clear
+ 1015  cd
+ 1016  PACKAGE="httpd wget unzip"
+ 1017  echo $PACKAGE
+ 1018  PACKAGE=`httpd wget unzip`
+ 1019  clear
+ 1020  PACKAGE=`httpd wget unzip`
+ 1021  clear
+ 1022  echo $SHELL
+ 1023  echo $name
+ 1024  echo $city
+ 1025  LONDON=city
+ 1026  echo $city
+ 1027  PACKAGE=`httpd wget unzip`
+ 1028  clear
+ 1029  PACKAGE="httpd wget unzip"
+ 1030  sudo yum install $PACKAGE -y
+ 1031  clear
+ 1032  echo $TERM
+ 1033  echo $HISTSIZE
+ 1034  echo $USER
+ 1035  clear
+ 1036  echo $PWD
+ 1037  echo $LANG
+ 1038  echo $HISTSCONTROL
+ 1039  echo $HISTCONTROL
+ 1040  echo $SHLVL
+ 1041  echo $HOME
+ 1042  echo $LOGNAME
+ 1043  clear
+ 1044  su - ashley 
+ 1045  sudo su - ashley 
+ 1046  clear
+ 1047  cd scripts/
+ 1048  env
+ 1049  clear
+ 1050  ls
+ 1051  cat -n quizq1.sh 
+ 1052  clear
+ 1053  ls
+ 1054  vim script_commands.txt 
+ 1055  clear
+ 1056  history 
+ 1057  clear
+ 1058  echo $history 
+ 1059  clear
+ 1060  cat history 
+ 1061  clear
+ 1062  #history >> 
+ 1063  ls
+ 1064  #history >> Exporting Variables 
+ 1065  Make variables permanent for user or every user in the system 
+ 1066  clear
+ 1067  ls
+ 1068  history >> script_commands.txt
